@@ -128,3 +128,37 @@ body,
 .banner-content a:hover {
   border-bottom: 1px solid #fff;
 }
+
+.feature-items {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.feature-items > div {
+  min-height: 200px;
+  background-color: rebeccapurple;
+  border: 1px solid;
+}
+
+footer {
+  display: grid;
+  grid-template-areas:
+    "shop footer-nav"
+    "copyright .";
+  margin: 10px auto;
+  width: 80%;
+  grid-gap: 15px;
+}
+.shop {
+  grid-area: shop;
+}
+.footer-nav {
+  grid-area: footer-nav;
+}
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+}
+.copyright {
+  grid-area: copyright;
+}
