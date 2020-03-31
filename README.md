@@ -48,7 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Content inspired by the original youtube page.
+- Content inspired by the original Apple archive.
 
 ## 📝 License
 

@@ -60,6 +60,19 @@ body,
   width: 21px;
 }
 
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.banner-content a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-decoration: none;
+  transition: 0.5s ease-in;
+}
+
 .nav ul li a {
   color: #fff;
   font-size: 12px;
@@ -138,14 +151,6 @@ body,
   font-weight: 200;
 }
 
-.banner-content a {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 100;
-  text-decoration: none;
-  transition: 0.5s ease-in;
-}
-
 .banner-content a:hover {
   border-bottom: 1px solid #fff;
 }
@@ -188,11 +193,6 @@ footer {
     "copyright .";
   margin: 10px auto;
   width: 980px;
-}
-
-footer a {
-  color: #08c;
-  text-decoration: none;
 }
 
 .shop {
