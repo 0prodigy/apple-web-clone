@@ -146,11 +146,19 @@ footer {
     "shop footer-nav"
     "copyright .";
   margin: 10px auto;
-  width: 80%;
-  grid-gap: 15px;
+  width: 980px;
+  grid-column-gap: 15px;
+  font-size: 11px;
+  color: #808080;
+}
+
+footer a {
+  color: #08c;
+  text-decoration: none;
 }
 .shop {
   grid-area: shop;
+  font-size: 0.65rem;
 }
 .footer-nav {
   grid-area: footer-nav;
@@ -159,6 +167,16 @@ footer {
   display: flex;
   list-style: none;
 }
+.footer-nav ul li {
+  display: inline-block;
+  margin-right: 0.6em;
+  padding-right: 0.6em;
+  border-right: 1px solid #ccc;
+}
+.last {
+  border: none !important;
+}
+
 .copyright {
   grid-area: copyright;
 }
