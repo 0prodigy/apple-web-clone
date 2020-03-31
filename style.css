@@ -1,24 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
 body,
 .main {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
   background: url("./images/your_verse_hero.jpg") center no-repeat;
-  background-size: cover;
   background-position-y: -724px;
+  background-size: cover;
 }
+
 .nav-container {
   padding: 5em 0;
 }
+
 .nav {
-  max-width: 980px;
-  margin: 0 auto;
-  background: -webkit-gradient(
+  background:
+    -webkit-gradient(
       linear,
       0 0,
       0 100%,
@@ -29,107 +31,119 @@ body,
     ),
     -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
     -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-  height: 36px;
-  position: relative;
   border-radius: 5px;
+  height: 36px;
+  margin: 0 auto;
+  max-width: 980px;
+  position: relative;
 }
 
 .nav ul {
-  width: 845px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  list-style: none;
   height: 100%;
+  list-style: none;
   margin: 0;
   padding: 0;
+  width: 845px;
 }
+
 .nav ul li {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 0.8rem;
   border-right: 1px solid rgb(90, 85, 85);
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: center;
 }
+
 .logo {
   width: 21px;
 }
+
 .nav ul li a {
   color: #fff;
-  text-decoration: none;
   font-size: 12px;
+  text-decoration: none;
 }
+
 .search {
+  background: none;
+  border-width: 0 2px 0 1px;
+  padding: 8px 13px;
   position: absolute;
   right: 0;
   top: 0;
   width: 106px;
-  padding: 8px 13px;
-  background: none;
-  border-width: 0 2px 0 1px;
 }
 
 .search-bar {
-  width: 100%;
+  background: transparent;
+  border: none;
+  border-radius: 12px;
+  box-shadow: inset 0 0 2px;
+  box-sizing: border-box;
   height: 20px;
   padding: 2px 18px 1px 22px;
-  background: transparent;
-  border-radius: 12px;
-  border: none;
-  box-shadow: inset 0px 0px 2px;
-  box-sizing: border-box;
+  width: 100%;
 }
+
 .fa-search {
-  font-size: 11px;
   color: white;
+  font-size: 11px;
+  left: 18px;
   position: absolute;
   top: 12px;
-  left: 18px;
   z-index: 2;
 }
+
 .search-bar:focus {
   background: #fff;
   background-size: 10%;
-  width: 120%;
-  float: left;
   border: none;
+  float: left;
   margin-left: -20%;
   outline: none;
+  width: 120%;
 }
+
 .search-bar:focus .fa-search {
   color: #000;
-  left: 0px;
+  left: 0;
 }
 
 .wrapper {
-  padding-bottom: 65px;
+  padding-bottom: 62px;
 }
+
 .banner-content {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   flex-flow: column;
-  margin: -40px auto 0px;
+  justify-content: center;
+  margin: -40px auto 0;
+  padding-bottom: 0;
   width: 55%;
-  padding-bottom: 0px;
 }
 
 .banner-content h1 {
-  margin-bottom: 0;
+  color: #fff;
   font-size: 3rem;
   font-weight: 200;
-  color: #fff;
+  margin-bottom: 0;
 }
+
 .banner-content h3 {
-  font-size: 2rem;
   color: #fff;
+  font-size: 2rem;
   font-weight: 200;
 }
+
 .banner-content a {
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 100;
   text-decoration: none;
   transition: 0.5s ease-in;
-  color: #fff;
 }
 
 .banner-content a:hover {
@@ -142,9 +156,9 @@ body,
 }
 
 .feature-items > div {
-  min-height: 200px;
   background-color: #fff;
   border: 1px solid #fff;
+  min-height: 200px;
 }
 
 .item1 {
@@ -154,46 +168,53 @@ body,
 .item2 {
   background: url("./images/promo_iphone5c.jpg") center no-repeat;
 }
+
 .item3 {
   background: url("./images/promo_30_years.jpg") center no-repeat;
 }
+
 .item4 {
   background: url("./images/promo_supplier_responsibility.jpg") center no-repeat;
 }
 
 footer {
+  color: #000;
   display: grid;
+  font-size: 11px;
+  font-weight: 700;
+  grid-column-gap: 15px;
   grid-template-areas:
     "shop footer-nav"
     "copyright .";
   margin: 10px auto;
   width: 980px;
-  grid-column-gap: 15px;
-  font-size: 11px;
-  font-weight: 700;
-  color: #000;
 }
 
 footer a {
   color: #08c;
   text-decoration: none;
 }
+
 .shop {
   grid-area: shop;
 }
+
 .footer-nav {
   grid-area: footer-nav;
 }
+
 .footer-nav ul {
   display: flex;
   list-style: none;
 }
+
 .footer-nav ul li {
+  border-right: 1px solid #ccc;
   display: inline-block;
   margin-right: 0.6em;
   padding-right: 0.6em;
-  border-right: 1px solid #ccc;
 }
+
 .last {
   border: none !important;
 }
