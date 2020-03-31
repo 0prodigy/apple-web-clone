@@ -5,9 +5,15 @@ body,
   box-sizing: border-box;
 }
 
+.main {
+  background: url("./images/your_verse_hero.jpg") no-repeat;
+}
+.nav-container {
+  padding: 5em 0;
+}
 .nav {
   max-width: 980px;
-  margin: 5em auto;
+  margin: 0 auto;
   background: -webkit-gradient(
       linear,
       0 0,
@@ -90,9 +96,35 @@ body,
   left: 0px;
 }
 
-.wrapper {
+.banner-content {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   flex-flow: column;
-  margin: 0 auto;
+  margin: -40px auto 10px;
+  width: 55%;
+  padding-bottom: 80px;
+}
+
+.banner-content h1 {
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 200;
+  color: #fff;
+}
+.banner-content h3 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 200;
+}
+.banner-content a {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-decoration: none;
+  transition: 0.5s ease-in;
+  color: #fff;
+}
+
+.banner-content a:hover {
+  border-bottom: 1px solid #fff;
 }
