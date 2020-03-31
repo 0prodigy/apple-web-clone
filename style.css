@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 body,
 .main {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 .main {
@@ -98,14 +100,17 @@ body,
   left: 0px;
 }
 
+.wrapper {
+  padding-bottom: 65px;
+}
 .banner-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
-  margin: -40px auto 10px;
+  margin: -40px auto 0px;
   width: 55%;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
 
 .banner-content h1 {
@@ -165,7 +170,8 @@ footer {
   width: 980px;
   grid-column-gap: 15px;
   font-size: 11px;
-  color: #808080;
+  font-weight: 700;
+  color: #000;
 }
 
 footer a {
@@ -174,7 +180,6 @@ footer a {
 }
 .shop {
   grid-area: shop;
-  font-size: 0.65rem;
 }
 .footer-nav {
   grid-area: footer-nav;
