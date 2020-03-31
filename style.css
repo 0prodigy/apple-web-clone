@@ -136,8 +136,22 @@ body,
 
 .feature-items > div {
   min-height: 200px;
-  background-color: rebeccapurple;
-  border: 1px solid;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.item1 {
+  background: url("./images/promo_iphone5s.jpg") center no-repeat;
+}
+
+.item2 {
+  background: url("./images/promo_iphone5c.jpg") center no-repeat;
+}
+.item3 {
+  background: url("./images/promo_30_years.jpg") center no-repeat;
+}
+.item4 {
+  background: url("./images/promo_supplier_responsibility.jpg") center no-repeat;
 }
 
 footer {
