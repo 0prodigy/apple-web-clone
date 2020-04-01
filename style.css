@@ -19,8 +19,7 @@ body,
 }
 
 .nav {
-  background:
-    -webkit-gradient(
+  background: -webkit-gradient(
       linear,
       0 0,
       0 100%,
@@ -156,14 +155,14 @@ footer a {
 }
 
 .feature-items {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
+  display: flex;
 }
 
 .feature-items > div {
   background-color: #fff;
   border: 1px solid #fff;
   min-height: 200px;
+  max-width: 33.99%;
 }
 
 .item1 {
