@@ -19,8 +19,7 @@ body,
 }
 
 .nav {
-  background:
-    -webkit-gradient(
+  background: -webkit-gradient(
       linear,
       0 0,
       0 100%,
@@ -46,6 +45,7 @@ body,
   margin: 0;
   padding: 0;
   width: 845px;
+  transition: 0.5s;
 }
 
 .nav ul li {
@@ -64,13 +64,12 @@ body,
 }
 
 .nav ul li:hover {
-  background:
-    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQVQIW2P4L8zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC")
-    repeat-x 0 0,
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQVQIW2P4L8zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC")
+      repeat-x 0 0,
     url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D")
-    repeat-y 100% 0,
+      repeat-y 100% 0,
     url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC")
-    repeat-y 0 0,
+      repeat-y 0 0,
     rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
@@ -96,6 +95,8 @@ footer a {
   display: block;
   background-color: #fff;
   border: 1px solid #fff;
+  border-bottom: none;
+  border-top: none;
   min-height: 200px;
   max-width: 33.99%;
   width: 33.99%;
@@ -115,6 +116,7 @@ footer a {
   right: 0;
   top: 0;
   width: 106px;
+  transition: 0.5s;
 }
 
 .search-bar {
@@ -139,12 +141,11 @@ footer a {
 
 .search-bar:focus {
   background: #fff;
-  background-size: 10%;
   border: none;
   float: left;
-  margin-left: -20%;
   outline: none;
-  width: 120%;
+  width: 100%;
+  transition: 0.5s;
 }
 
 .search-bar:focus .fa-search {
