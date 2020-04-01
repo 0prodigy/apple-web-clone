@@ -1,6 +1,6 @@
 # Apple Web Colne
 
-> A clone of the most branded company Apple Inc.
+> A clone of the most branded company Apple Inc. To practice css Flex-box and grid system as a solo project at Microverse.
 
 ![screenshot](./images/screenshot.png)
 
