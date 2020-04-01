@@ -158,11 +158,18 @@ footer a {
   display: flex;
 }
 
-.feature-items > div {
+.feature-items a {
+  display: block;
   background-color: #fff;
   border: 1px solid #fff;
   min-height: 200px;
   max-width: 33.99%;
+  width: 33.99%;
+}
+
+.feature-items div {
+  height: 100%;
+  width: 100%;
 }
 
 .item1 {
