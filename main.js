@@ -11,4 +11,6 @@ input.addEventListener("focus", function () {
 function focusOut() {
     nav[0].style.width = "845px";
     search[0].style.width = "106px";
+    fa[0].style.color = "#fff"
+
 }
