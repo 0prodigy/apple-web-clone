@@ -8,9 +8,8 @@ input.addEventListener("focus", function () {
     fa[0].style.color = "#333"
 });
 
-function focusOut() {
+input.addEventListener("blur", function () {
     nav[0].style.width = "845px";
     search[0].style.width = "106px";
     fa[0].style.color = "#fff"
-
-}
+});
