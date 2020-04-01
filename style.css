@@ -19,7 +19,8 @@ body,
 }
 
 .nav {
-  background: -webkit-gradient(
+  background:
+    -webkit-gradient(
       linear,
       0 0,
       0 100%,
@@ -64,12 +65,13 @@ body,
 }
 
 .nav ul li:hover {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQVQIW2P4L8zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC")
-      repeat-x 0 0,
+  background:
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQVQIW2P4L8zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC")
+    repeat-x 0 0,
     url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D")
-      repeat-y 100% 0,
+    repeat-y 100% 0,
     url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC")
-      repeat-y 0 0,
+    repeat-y 0 0,
     rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
@@ -212,7 +214,7 @@ footer a {
 footer {
   color: #000;
   display: grid;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
   grid-column-gap: 15px;
   grid-template-areas:
