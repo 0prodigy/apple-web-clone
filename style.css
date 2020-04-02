@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+body,
+.main {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: url("./images/your_verse_hero.jpg") center no-repeat;
+  background-position-y: -724px;
+  background-size: cover;
+}
+
+.nav-container {
+  padding: 5em 0;
+}
+
+.nav {
+  background:
+    -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      from(rgba(0, 0, 0, 0.2)),
+      color-stop(0.05, rgba(0, 0, 0, 0)),
+      color-stop(0.97, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.45))
+    ),
+    -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
+    -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  border-radius: 5px;
+  height: 36px;
+  margin: 0 auto;
+  max-width: 980px;
+  position: relative;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 845px;
+  transition: 0.5s;
+}
+
+.nav ul li {
+  align-items: center;
+  border-right: 1px solid rgb(90, 85, 85);
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: center;
+}
+
+.footer-nav ul li {
+  border-right: 1px solid #ccc;
+  display: inline-block;
+  margin-right: 0.6em;
+  padding-right: 0.6em;
+}
+
+.nav ul li:hover {
+  background:
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQVQIW2P4L8zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC")
+    repeat-x 0 0,
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D")
+    repeat-y 100% 0,
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC")
+    repeat-y 0 0,
+    rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.logo {
+  width: 21px;
+}
+
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.banner-content a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-decoration: none;
+  transition: 0.5s ease-in;
+}
+
+.feature-items a {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-bottom: none;
+  border-top: none;
+  min-height: 200px;
+  max-width: 33.99%;
+  width: 33.99%;
+}
+
+.nav ul li a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.search {
+  background: none;
+  border-width: 0 2px 0 1px;
+  padding: 8px 13px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 106px;
+  transition: 0.5s;
+}
+
+.search-bar {
+  background: transparent;
+  border: none;
+  border-radius: 12px;
+  box-shadow: inset 0 0 2px;
+  box-sizing: border-box;
+  height: 20px;
+  padding: 2px 18px 1px 22px;
+  width: 100%;
+}
+
+.fa-search {
+  color: white;
+  font-size: 11px;
+  left: 18px;
+  position: absolute;
+  top: 12px;
+  z-index: 2;
+}
+
+.search-bar:focus {
+  background: #fff;
+  border: none;
+  float: left;
+  outline: none;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.search-bar:focus .fa-search {
+  color: #000;
+  left: 0;
+}
+
+.wrapper {
+  padding-bottom: 62px;
+}
+
+.banner-content {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: -40px auto 0;
+  padding-bottom: 0;
+  width: 55%;
+}
+
+.banner-content h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.banner-content h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.banner-content a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.feature-items {
+  display: flex;
+}
+
+.feature-items div {
+  height: 100%;
+  width: 100%;
+}
+
+.item1 {
+  background: url("./images/promo_iphone5s.jpg") center no-repeat;
+}
+
+.item2 {
+  background: url("./images/promo_iphone5c.jpg") center no-repeat;
+}
+
+.item3 {
+  background: url("./images/promo_30_years.jpg") center no-repeat;
+}
+
+.item4 {
+  background: url("./images/promo_supplier_responsibility.jpg") center no-repeat;
+}
+
+footer {
+  color: #000;
+  display: grid;
+  font-size: 10px;
+  font-weight: 700;
+  grid-column-gap: 15px;
+  grid-template-areas:
+    "shop footer-nav"
+    "copyright .";
+  margin: 10px auto;
+  width: 980px;
+}
+
+.shop {
+  grid-area: shop;
+}
+
+.footer-nav {
+  grid-area: footer-nav;
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.last {
+  border: none !important;
+}
+
+.copyright {
+  grid-area: copyright;
+}
